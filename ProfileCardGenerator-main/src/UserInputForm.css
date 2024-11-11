@@ -1,0 +1,36 @@
+/* src/UserInputForm.css */
+.user-input-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    margin: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .user-input-form input[type="text"],
+  .user-input-form input[type="number"],
+  .user-input-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .user-input-form button[type="submit"] {
+    padding: 8px 16px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .user-input-form button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
